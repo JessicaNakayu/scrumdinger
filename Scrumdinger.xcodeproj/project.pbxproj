@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		28E6E0F42DD92AE500689A39 /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 28E6E0F32DD92AE500689A39 /* ThemeKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		28E6E0D42DCC456C00689A39 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28E6E0F42DD92AE500689A39 /* ThemeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = Scrumdinger;
 			packageProductDependencies = (
+				28E6E0F32DD92AE500689A39 /* ThemeKit */,
 			);
 			productName = Scrumdinger;
 			productReference = 28E6E0D42DCC456C00689A39 /* Scrumdinger.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 28E6E0CB2DCC456C00689A39;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				28E6E0F22DD92AE500689A39 /* XCLocalSwiftPackageReference "ThemeKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 28E6E0D52DCC456C00689A39 /* Products */;
 			projectDirPath = "";
@@ -315,6 +324,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		28E6E0F22DD92AE500689A39 /* XCLocalSwiftPackageReference "ThemeKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ThemeKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		28E6E0F32DD92AE500689A39 /* ThemeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThemeKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 28E6E0CC2DCC456C00689A39 /* Project object */;
 }
